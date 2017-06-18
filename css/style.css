@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+H1{
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+
+}
+
+#map {
+        height: 80%;
+        margin: 0;
+      }
+#wybor {
+        height: 80%;
+    padding: 20px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+      }
+.title {
+        font-weight: bold;
+      }
+      #infowindow-content {
+        display: none;
+      }
+      #map #infowindow-content {
+        display: inline;
+      }
+.map-control {
+    color: #000000;
+        font-family: 'Roboto','sans-serif';
+        margin: 10px;
+    padding: 10px;
+        /* Hide the control initially, to prevent it from appearing
+      }
+      /* Display the control once it is inside the map. */
+      #map .map-control { display: block; }
+
+      .selector-control {
+          color: #000000;
+        font-size: 14px;
+        line-height: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+
